@@ -1,0 +1,29 @@
+Some challenging interview questions for a Data Engineer position at Tiger Analytics, targeting candidates with 2-5 years of experience:
+
+1. ETL Pipelines and Data Transformation
+	•	Question: How would you design a scalable ETL pipeline to process large datasets in a distributed environment? What are the key considerations for performance optimization?
+	•	Focus: Knowledge of ETL tools (e.g., Apache Airflow, dbt), distributed computing (e.g., Hadoop, Spark), and performance tuning for large datasets.
+
+2. Data Modeling
+	•	Question: Can you explain the differences between star schema and snowflake schema? In which scenarios would you use each, and how would you optimize these models for querying performance?
+	•	Focus: Data modeling concepts, database optimization, and schema design for business intelligence systems.
+
+3. SQL Query Optimization
+	•	Question: Given a slow-running SQL query, how would you approach optimizing it? Can you walk us through the techniques you would apply in an OLAP environment?
+	•	Focus: SQL optimization, indexing, partitioning, query execution plans, and performance tuning.
+
+4. Handling Data Quality Issues
+	•	Question: How do you handle data quality issues such as missing or corrupted data in your ETL pipelines? Can you share an example of how you’ve handled such situations in the past?
+	•	Focus: Data validation techniques, data cleaning, and ensuring high data quality in the pipeline.
+
+5. Working with Real-Time Data
+	•	Question: How would you design a system for real-time data processing? What tools and frameworks would you use for stream processing, and how would you handle data consistency in real-time?
+	•	Focus: Real-time processing frameworks (e.g., Apache Kafka, Apache Flink), event-driven architectures, and data consistency challenges.
+
+6. Data Storage Solutions
+	•	Question: How would you decide between different storage solutions (e.g., relational databases, NoSQL, data lakes) for a given use case? What are the trade-offs involved?
+	•	Focus: Knowledge of various storage technologies, their advantages and limitations, and selecting the appropriate one based on business needs.
+
+7. Cloud Technologies
+	•	Question: What is your experience with cloud data engineering tools (e.g., AWS Redshift, Google BigQuery, Azure Synapse)? How do you manage scalability, performance, and cost optimization in the cloud?
+	•	Focus: Cloud platforms, data warehousing solutions, scalability, and cost management.
