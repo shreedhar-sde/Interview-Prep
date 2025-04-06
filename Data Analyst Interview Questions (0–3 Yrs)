@@ -1,0 +1,29 @@
+Meesho Data Analyst Interview Questions (0–3 Yrs)
+
+Here are some SQL questions they asked:
+
+1️⃣ How would you optimize a slow query with multiple joins?
+Use Indexes in joins
+2️⃣ What is a recursive CTE, and when would you use it?
+CET: Common Table Expression
+ex to count upto 3: [with countup as (select 1 as n  union all select n+1 from countup where n<3) select * from countup ]
+exp: recursive with executes Base query (select 1 as n) first and then keeps executing recursive query (WITHOUT PROCESSING SAME INPUT TWICE) till it returns empty set
+use: Ancestory Search
+3️⃣ Difference between clustered and non-clustered indexes.
+4️⃣ Write a query to find the second highest salary in each department.
+select dep, salary from
+(select dep, salary, dense_rank() over (partition by dep order by salary) as row
+	from
+ employee_data)
+where row =2
+5️⃣ How do you detect and resolve deadlocks in SQL?
+6️⃣ Explain ROW_NUMBER, RANK, and DENSE_RANK with examples.
+ROW_NUMBER: In case of two thing having same sort value it randomly assigns x, x+1 ranks to them thus avoiding duplicate ranks
+RANK: Assigns same rank for same sort value thus having duplicate ranks and skips all the subsequent ranks  
+DENSE_RANK: Assigns same rank for a tie but does not skip next ranls
+7️⃣ What are ACID properties, and why are they important?
+They are a set of four property that ensures Database transactions are reliable. They are Atomicity, Consistency, Isolation and Durability.
+Importance for critical operations, say payment transactions.
+8️⃣ Write a query to calculate a running total with conditions.
+
+Focus on SQL basics, optimization techniques, and advanced concepts like window functions and indexing.
