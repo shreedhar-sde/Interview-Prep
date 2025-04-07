@@ -1,2 +1,2 @@
 # Interview-Prep
-Collection of Interview Experiences (especially the questions asked and few comments on that from my end).
+Collection of Interview Questions gathered via posts from people across social media platforms.
